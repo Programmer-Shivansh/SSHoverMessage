@@ -17,7 +17,7 @@ class ScreenViewer:
         
         # Initialize network settings
         self.server_socket = socket.socket()
-        self.server_socket.bind(('localhost', 5003))
+        self.server_socket.bind(('', 5003))
         self.server_socket.listen(1)
         
         # Start the server threa3
